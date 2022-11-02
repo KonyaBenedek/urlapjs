@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>Űrlap</title>
+</head>
+
+<body>
+    <div id="elso">
+        <form>
+            <label for="nev">Megrendelő neve:</label>
+            <input type="text" name="nev" id="nev" onfocus="effektBeNev()" onblur="effektBlurNev()">
+            <br class="koztes">
+            <label for="cim">Megrendelő címe:</label>
+            <input type="text" name="cim" id="cim"  onfocus="effektBeCim()" onblur="effektBlurCim()">
+            <br class="koztes">
+            <label for="telszam">Megrendelő telefonszáma:</label>
+            <input type="tel" name="telszam" id="telszam" value="+36" onfocus="effektBeTel()" onblur="effektBlurTel()">
+            <br id="vege">
+            <input type="submit" value="Elküld" id="submit">
+        </form>
+    </div>
+    <br>
+    <div id="masodik">
+        <h1>Visszaigazolás!</h1>
+        <ul>
+            <li id="listnev">Név: ?</li>
+            <li id="listcim">Cím: ?</li>
+            <li id="listtel">Telefon: ?</li>
+        </ul>
+    </div>
+</body>
+
+</html>

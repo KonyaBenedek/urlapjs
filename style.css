@@ -1,0 +1,58 @@
+body {
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+    font-size: 30px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+#elso {
+    padding-top: 10px;
+    padding-bottom: 40px;
+    background-color: lightsteelblue;
+    border: solid lightsteelblue;
+    border-radius: 20px;
+    font-size: 30px;
+}
+
+#masodik {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    background-color: lightsteelblue;
+    border: solid lightsteelblue;
+    border-radius: 20px;
+}
+
+#submit {
+    width: 250px;
+    height: 50px;
+    border: solid 2px;
+    font-size: 23px;
+}
+
+.koztes {
+    display: block;
+    margin-top: 5px;
+    content: "";
+}
+
+#vege {
+    display: block;
+    content: "";
+    margin-top: 30px;
+}
+
+h1 {
+    background-color: white;
+    display: inline-block;
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 0px;
+}
+
+input {
+    font-size: 30px;
+}
